@@ -1,0 +1,42 @@
+.button-1 {
+    background-color:#FA6600 ;
+    border: 1px solid #FA6600;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: white;
+  }
+  .button-1:hover {
+    border: 1px solid #FA6600;
+    /* letter-spacing: 10px; */
+  }
+  
+  .button-container {
+    display: flex;
+    padding-left: 30px;
+    justify-content: center;
+    align-items: center;
+  } 
+
+  .button-2 {
+    background-color:#FA6600 ;
+    border: 1px solid #FA6600;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: white;
+  }
+  .button-2:hover {
+    border: 1px solid #FA6600;
+    letter-spacing: 10px;
+  }
+  
+  .button-container2 {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+  } 
+
+  .uploader-status ::ng-deep .mat-progress-spinner circle, .mat-spinner circle {
+    stroke: #FA6600;
+}

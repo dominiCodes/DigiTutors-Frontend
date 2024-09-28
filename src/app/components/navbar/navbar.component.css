@@ -1,0 +1,43 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mat-success {
+
+  /* background-color: green; */
+  color: #D35600;
+}
+
+.button-1 {
+  background-color:transparent ;
+  /* border-radius: 50px; */
+  /* -webkit-transition: all .15s ease-in-out; */
+  /* transition: all .15s ease-in-out; */
+  color: #D35600;
+}
+.button-1:hover {
+  /* background-color: #D35600; */
+  color: #D35600;
+  transform: scale(1.2);
+  /* border: 1px solid #D35600; */
+  /* letter-spacing: 10px; */
+}
+
+.vertical {
+  background-image: linear-gradient(to right, #f0f0f0, #D35600, #59d941, #f0f0f0);
+  border-left:1px solid white;
+  height: 20px;
+  
+  /* position:absolute; */
+  /* left: 50%; */
+}
+
+.ex{
+color: white;
+}
+
+.ex:hover{
+  opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+.truncate {
+  display: block;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.example-header-image {
+  background-image: url("/assets/exam1.png");
+  background-size: cover;
+}
+
+.submenu-item {
+  /* display: block;
+  width: 100%;
+  padding: 10px; */
+  transition: background-color 0.2s, color 0.2s; 
+}
+
+.submenu-item:hover {
+  /* transform: scale(1.1); */
+  box-shadow: 0 0 5px 0 #D35600 inset, 0 0 5px 0.5px #D35600;
+  /* background-color: #CCD6E2; */
+  
+} 
+
+.mat-success {
+
+  /* background-color: green; */
+  color: #D35600;
+}
+
+.button-1 {
+  background-color:#FA6600 ;
+  border: 1px solid #FA6600;
+  border-radius: 50px;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color: white;
+}
+.button-1:hover {
+  border: 1px solid #FA6600;
+  letter-spacing: 10px;
+}
+
+.button-container {
+  /* display: flex; */
+  /* padding-left: 30px; */
+  justify-content: center;
+  /* align-items: center; */
+} 
+
+hr.sep-2 {
+  border: 0; 
+  height: 1px; 
+  background-image: linear-gradient(to right, #f0f0f0, #D35600, #59d941, #f0f0f0);
+}

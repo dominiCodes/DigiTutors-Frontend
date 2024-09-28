@@ -1,0 +1,37 @@
+.mt40{
+    margin-top: 40px;
+}
+
+.mb40{
+margin-bottom: 40px;
+}
+
+.mr40{
+margin-right: 40px;
+}
+
+.ml40{
+margin-left: 40px;
+}
+
+.text-center {
+text-align: center;
+}
+
+.mat-card-shadow {
+outline: 2px solid transparent; /* Set an initial transparent outline */
+box-shadow: 0 0 40px rgba(0, 0, 0, 0.046); /* Example box shadow for border effect */
+transition: outline 0.2s, box-shadow 0.2s; /* Add smooth transitions */
+padding-left: 30px;
+}
+
+.mat-card-shadow:hover {
+outline-color: #003153; /* Example outline color on hover */
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Example box shadow on hover */
+}
+
+hr.sep-2 {
+border: 0; 
+height: 1px; 
+background-image: linear-gradient(to right, #f0f0f0, #D35600, blue, #f0f0f0);
+}

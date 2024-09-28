@@ -1,0 +1,23 @@
+<div class="bootstrap-wrapper">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2" style="padding-left: 0px; bottom: 10px;">
+        <app-sidebar-user></app-sidebar-user>
+      </div>
+
+      <div class="col-md-7">
+        <router-outlet></router-outlet>
+      
+      </div>
+
+      <div class="col-md-3">
+        
+        <app-leaderboard></app-leaderboard>
+       
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!-- {{leaderboardData[0].user.username}} -->
+{{leaderboardData}}

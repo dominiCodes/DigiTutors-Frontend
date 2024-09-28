@@ -1,0 +1,57 @@
+<!-- <h1>this is navbar</h1> -->
+<mat-toolbar style="background-color: #003153; height: 100px;" *ngIf="!isRootRoute()">
+  <!-- <a
+  style="color: white;"
+    routerLink="/"
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+  >
+  </a> -->
+  <span style="color: white;"><img routerLink="/" src="../../../assets/logo2.png" alt="" class="ex"></span>
+  <span class="example-spacer"></span>
+  <a
+  style="color: white; font-size: 16px;"
+    *ngIf="!isLoggedIn"
+    [routerLink]="'/login'"
+    mat-icon-button
+    class="example-icon favorite-icon"
+    aria-label="Example icon-button with heart icon"
+  >
+    Login
+  </a>
+
+  <a
+  style="color: white; font-size: 16px;"
+    *ngIf="!isLoggedIn"
+    [routerLink]="'/signup'"
+    mat-icon-button
+    class="example-icon favorite-icon mr20 ml20"
+    aria-label="Example icon-button with heart icon"
+  >
+    Register
+  </a>
+
+  <button
+    *ngIf="isLoggedIn && user"
+    style="color: #D35600; font-size: 20px;"
+    class="example-icon favorite-icon ml20 mat-success button-1"
+    mat-button
+    routerLink="/admin/profile"
+    aria-label="Example icon-button with heart icon"
+  >
+    Hi, {{ user.username }}
+  </button>
+
+  <div class = "vertical"></div>
+  <button
+  style="padding-right: 50px; font-size: 17px; padding-left: 20px;"
+    (click)="logout()"
+    *ngIf="isLoggedIn"
+    mat-icon-button
+    class=" button-1"
+    aria-label="Example icon-button with heart icon"
+  >
+    Logout
+</button>
+</mat-toolbar>

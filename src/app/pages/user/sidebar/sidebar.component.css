@@ -1,0 +1,44 @@
+.mat-card{
+    color: white;
+  }
+
+  .no-padding{
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .submenu-item {
+    color: #CCD6E2;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    transition: background-color 0.2s, color 0.2s; /* Add smooth transitions */
+  }
+  
+  .submenu-item:hover {
+    transform: scale(1.2);
+    background-color: #CCD6E2;; /* Example background color on hover */
+    color: #003153; /* Example text color on hover */
+    
+  } 
+
+  .submenu-items {
+    color: #CCD6E2;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    transition: background-color 0.2s, color 0.2s; 
+  }
+  
+  .submenu-items:hover {
+    transform: scale(1.2);
+    /* background-color: #CCD6E2; */
+    color: #003153;
+  } 
+
+  /* hr.sep-2 {
+    border: 0; 
+    height: 1px; 
+    background-image: linear-gradient(to right, #f0f0f0, #D35600, #f0f0f0, #f0f0f0);
+  } */
+
+  

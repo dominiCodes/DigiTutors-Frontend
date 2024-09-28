@@ -1,0 +1,29 @@
+.full-width {
+  width: 100%;
+}
+
+.buttons-1{
+  background-color: #FA6600;
+  color: white;
+  border-radius: 50px;
+}
+/* .buttons-1:hover{ */
+  /* background-color: transparent;
+  color: #FA6600;
+  border-radius: 50px;
+  border: 1px solid #FA6600;
+} */
+
+
+.buttons-2{
+  background-color: transparent;
+  color: #FA6600;;
+  border-radius: 50px;
+  border: 1px solid #FA6600;
+}
+.buttons-2:hover{
+  background-color: #FA6600;
+  color: white;
+  border-radius: 50px;
+  border: 1px solid #FA6600;
+}

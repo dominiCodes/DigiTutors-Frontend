@@ -1,0 +1,59 @@
+<div class="bootstrap-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <mat-card style="border: 2px solid #FA6600;">
+          <div class="container text-center" style="padding-right: 20px;">
+            <img src="../../../assets/logo.png" alt="" />
+          </div>
+
+          <h1 class="text-center" style="padding-top: 10px; color: #003153;">Login</h1>
+
+          <!-- {{ loginData | json }} -->
+          <form (ngSubmit)="formSubmit()">
+            <!-- username field -->
+            <mat-form-field class="full-width" appearance="outline">
+              <mat-label>User Name</mat-label>
+              <input
+                [(ngModel)]="loginData.username"
+                name="username"
+                required
+                matInput
+                placeholder="Enter here"
+              />
+              <mat-hint>Valid User Name</mat-hint>
+            </mat-form-field>
+
+            <!-- password field  -->
+
+            <mat-form-field class="full-width" appearance="outline">
+              <mat-label>User Password</mat-label>
+              <input
+                [(ngModel)]="loginData.password"
+                name="password"
+                type="password"
+                required
+                matInput
+                placeholder="Enter here"
+              />
+            </mat-form-field>
+
+            <div class="container text-center">
+              <div style="padding-bottom: 10px;">
+                <button mat-raised-button type="submit" class="buttons-2"
+                style="padding-left: 30px; padding-right: 30px;">
+                  Login
+                </button>
+                <button class="ml10 buttons-1" mat-raised-button
+                style="padding-left: 30px; padding-right: 30px;">
+                  Reset
+                </button>
+              </div>
+              
+            </div>
+          </form>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>

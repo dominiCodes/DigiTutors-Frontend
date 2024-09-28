@@ -1,0 +1,28 @@
+<div style="color: #003153;
+        text-shadow: 2px 7px 5px rgba(0,0,0,0.2), 
+        0px -4px 10px rgba(255,255,255,0.1);"
+        >
+          <h1 class=" .ml40 text-center" style="padding-top:  25px;" >LeaderBoard</h1>
+        </div>
+        
+        <div style="padding-left: 25px;">
+          <mat-card class="mat-card-shadow">
+            
+            <mat-card-content>
+              <mat-card-subtitle  style="padding-left: 2px;">
+               <span style="color: #D35600;">Rank</span>
+               <span style="padding-left: 65px; color: #D35600;">User</span> 
+                <span style="padding-left: 70px; color: #D35600;">Score</span>
+                </mat-card-subtitle>
+                <hr class="sep-2">
+              <ng-container *ngFor="let entry of leaderboardData; let i = index"> 
+                <mat-card-subtitle style="padding-top: 20px; padding-left: 10px;"> {{ i + 1 }} 
+                   <span class="ml10" style="padding-left:60px;">{{entry.user.username}}</span>
+                   <span style="padding-left: 60px;"> {{ entry.userScorePerQuiz }}</span>  
+                  </mat-card-subtitle>
+              </ng-container> 
+            </mat-card-content>
+          </mat-card>
+        </div>
+
+ 

@@ -1,0 +1,62 @@
+/* .body{
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../assets/bg.png');
+} */
+body.home-page {
+    background-image: url('../../../assets/bg.png'); /* Replace with your image path */
+    background-size: cover; /* Adjust the image sizing to cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-attachment: fixed; /* Fix the background image position */
+    /* You can also set other styles like text color, etc. */
+    color: #ffffff; /* Text color */
+  }
+
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* background-image: url('background-image.jpg'); Replace with your background image path */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    /* color: #ffffff; */
+/* }  */
+
+/* Header styles */
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+/* Content styles */
+.content {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cta-button {
+    background-color: #3498db; /* Button background color */
+    color: #ffffff; /* Button text color */
+    padding: 20px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #2980b9; /* Hover color */
+}
